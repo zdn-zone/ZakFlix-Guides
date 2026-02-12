@@ -1,0 +1,64 @@
+{
+  "trash_id": "3873e64f7ff1df7805598c15821e011b",
+  "trash_scores": {
+    "default": 1600
+  },
+  "name": "Asian HQ Tier 2",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "MagicStar",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "-MagicStar\\b"
+      }
+    },
+    {
+      "name": "NEXT",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "-NEXT\\b"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "SHiNE",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "-SHiNE\\b"
+      }
+    },
+    {
+      "name": "Luvmichelle",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "-Luvmichelle\\b"
+      }
+    }
+  ]
+}
