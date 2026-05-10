@@ -12,7 +12,7 @@
         "negate": false,
         "required": true,
         "fields": {
-          "value": "\\b(KCW)\\b"
+          "value": "\\b(KCW|KOCOWA)\\b"
         }
       },
       {
