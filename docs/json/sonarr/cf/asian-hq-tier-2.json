@@ -7,24 +7,6 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "MagicStar",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "-MagicStar\\b"
-      }
-    },
-    {
-      "name": "NEXT",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "-NEXT\\b"
-      }
-    },
-    {
       "name": "WEBDL",
       "implementation": "SourceSpecification",
       "negate": false,
@@ -43,21 +25,12 @@
       }
     },
     {
-      "name": "SHiNE",
+      "name": "PandaMoon",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-SHiNE\\b"
-      }
-    },
-    {
-      "name": "Luvmichelle",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "-Luvmichelle\\b"
+        "value": "-PandaMoon\\b"
       }
     }
   ]
