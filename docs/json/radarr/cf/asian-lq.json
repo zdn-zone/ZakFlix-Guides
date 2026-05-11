@@ -1,81 +1,72 @@
 {
-  "trash_id": "0183b666f79529efb85df21b7a2cf913",
+  "trash_id": "55dba64d34ccc522c69f5d143bd7d42c",
   "trash_scores": {
-    "default": 100
+    "default": -10000
   },
-  "name": "Asian HQ Tier 3",
-  "includeCustomFormatWhenRenaming": false,
-  "specifications": [
+  "name": "Asian LQ",
+    "includeCustomFormatWhenRenaming": false,
+    "specifications": [
     {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
+      "name": "AppleTor",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 3
+        "value": "^(AppleTor)$"
       }
     },
     {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
+      "name": "unco@AvistaZ",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 4
+        "value": "^(unco@AvistaZ)$"
       }
     },
     {
-      "name": "SHiNE",
+      "name": "unco",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(unco)$"
+      }
+    },
+    {
+      "name": "Taengoo",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-SHiNE\\b"
+        "value": "-Taengoo\\b"
       }
     },
     {
-      "name": "OurTV",
+      "name": "Luvmichelle",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-OurTV\\b"
+        "value": "-Luvmichelle\\b"
       }
     },
     {
-      "name": "HHWEB",
+      "name": "NEXT",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-HHWEB\\b"
+        "value": "-NEXT\\b"
       }
     },
     {
-      "name": "CHDWEB",
+      "name": "MagicStar",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-CHDWEB\\b"
-      }
-    },
-    {
-      "name": "ADWeb",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "-ADWeb\\b"
-      }
-    },
-    {
-      "name": "HDCTV",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "-HDCTV\\b"
+        "value": "-MagicStar\\b"
       }
     }
   ]
