@@ -4,8 +4,8 @@
     "default": -10000
   },
   "name": "Asian LQ",
-    "includeCustomFormatWhenRenaming": false,
-    "specifications": [
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
     {
       "name": "AppleTor",
       "implementation": "ReleaseGroupSpecification",
@@ -35,38 +35,38 @@
     },
     {
       "name": "Taengoo",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-Taengoo\\b"
+        "value": "^(Taengoo)$"
       }
     },
     {
       "name": "Luvmichelle",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-Luvmichelle\\b"
+        "value": "^(Luvmichelle)$"
       }
     },
     {
       "name": "NEXT",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-NEXT\\b"
+        "value": "^(NEXT)$"
       }
     },
     {
       "name": "MagicStar",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-MagicStar\\b"
+        "value": "^(MagicStar)$"
       }
     }
   ]

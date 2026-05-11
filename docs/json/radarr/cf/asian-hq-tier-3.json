@@ -26,56 +26,56 @@
     },
     {
       "name": "SHiNE",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-SHiNE\\b"
+        "value": "^(SHiNE)$"
       }
     },
     {
       "name": "OurTV",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-OurTV\\b"
+        "value": "^(OurTV)$"
       }
     },
     {
       "name": "HHWEB",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-HHWEB\\b"
+        "value": "^(HHWEB)$"
       }
     },
     {
       "name": "CHDWEB",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-CHDWEB\\b"
+        "value": "^(CHDWEB)$"
       }
     },
     {
       "name": "ADWeb",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-ADWeb\\b"
+        "value": "^(ADWeb)$"
       }
     },
     {
       "name": "HDCTV",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-HDCTV\\b"
+        "value": "^(HDCTV)$"
       }
     }
   ]

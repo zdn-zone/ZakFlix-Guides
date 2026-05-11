@@ -8,137 +8,137 @@
   "specifications": [
     {
       "name": "ECLiPSE",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-ECLiPSE\\b"
+        "value": "^(ECLiPSE)$"
       }
     },
     {
       "name": "Archie",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-Archie\\b"
+        "value": "^(Archie)$"
       }
     },
     {
       "name": "MMR",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-MMR\\b"
+        "value": "^(MMR)$"
       }
     },
     {
       "name": "JKCT",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-JKCT\\b"
+        "value": "^(JKCT)$"
       }
     },
     {
       "name": "LoveBug",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-LoveBug\\b"
+        "value": "^(LoveBug)$"
       }
     },
     {
       "name": "Phanteam",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-Phanteam\\b"
+        "value": "^(Phanteam)$"
       }
     },
     {
       "name": "iTsOK",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-iTsOK\\b"
+        "value": "^(iTsOK)$"
       }
     },
     {
       "name": "HBO",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-HBO\\b"
+        "value": "^(HBO)$"
       }
     },
     {
       "name": "SH3LBY",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-SH3LBY\\b"
+        "value": "^(SH3LBY)$"
       }
     },
     {
       "name": "MARK",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-MARK\\b"
+        "value": "^(MARK)$"
       }
     },
     {
       "name": "MrHulk",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-MrHulk\\b"
+        "value": "^(MrHulk)$"
       }
     },
     {
       "name": "ANDY",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-ANDY\\b"
+        "value": "^(ANDY)$"
       }
     },
     {
       "name": "SYNFM",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-SYNFM\\b"
+        "value": "^(SYNFM)$"
       }
     },
     {
       "name": "HeavenlyOppa",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-HeavenlyOppa\\b"
+        "value": "^(HeavenlyOppa)$"
       }
     },
     {
       "name": "Wendy",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-Wendy\\b"
+        "value": "^(Wendy)$"
       }
     },
     {

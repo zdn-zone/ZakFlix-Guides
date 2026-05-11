@@ -26,11 +26,11 @@
     },
     {
       "name": "PandaMoon",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-PandaMoon\\b"
+        "value": "^(PandaMoon)$"
       }
     }
   ]
