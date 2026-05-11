@@ -7,6 +7,24 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
       "name": "ECLiPSE",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
@@ -139,24 +157,6 @@
       "required": false,
       "fields": {
         "value": "^(Wendy)$"
-      }
-    },
-    {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 3
-      }
-    },
-    {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 4
       }
     }
   ]
